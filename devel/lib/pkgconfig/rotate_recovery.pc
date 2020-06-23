@@ -1,0 +1,8 @@
+prefix=/home/estrong/work/demo_hybrid_astar/devel
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.14.7
+Cflags: -I/home/estrong/work/demo_hybrid_astar/src/navigation/rotate_recovery/include
+Libs: -L${prefix}/lib -lrotate_recovery
+Requires: roscpp pluginlib

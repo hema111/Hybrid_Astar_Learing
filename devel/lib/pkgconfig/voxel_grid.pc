@@ -1,0 +1,8 @@
+prefix=/home/estrong/work/demo_hybrid_astar/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.14.7
+Cflags: -I/home/estrong/work/demo_hybrid_astar/src/navigation/voxel_grid/include
+Libs: -L${prefix}/lib -lvoxel_grid
+Requires: roscpp

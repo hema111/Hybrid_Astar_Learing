@@ -1,0 +1,8 @@
+prefix=/home/estrong/work/demo_hybrid_astar/devel
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.14.7
+Cflags: -I/home/estrong/work/demo_hybrid_astar/src/navigation/nav_core/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d
